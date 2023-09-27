@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+::selection {
+  display: none;
+}
+:root {
+  --main-color: #7b6ada;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+ul {
+  list-style: none;
+}
+/* Start Header */
+header {
+  background-color: var(--main-color);
+}
+header .container {
+  height: 60px;
+}
+
+header form input[type="search"] {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 30px;
+}
+header form input[type="search"]:focus {
+  outline: none;
+}
+header form input[type="search"]::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+}
+
+header li {
+  list-style: none;
+}
+header li a {
+  transition: 0.3s;
+}
+header li a:hover,
+header li a.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+/* End Header */
+/* Start Landing */
+.landing {
+  border-radius: 0 0 150px 0;
+  background-color: var(--main-color);
+  -webkit-border-radius: 0 0 150px 0;
+  -moz-border-radius: 0 0 150px 0;
+  -ms-border-radius: 0 0 150px 0;
+  -o-border-radius: 0 0 150px 0;
+  height: 100vh;
+}
+
+.landing .content {
+  background-image: url(/images/landing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.borders {
+  border-radius: 0 120px 120px 0;
+  -webkit-border-radius: 0 120px 120px 0;
+  -moz-border-radius: 0 120px 120px 0;
+  -ms-border-radius: 0 120px 120px 0;
+  -o-border-radius: 0 120px 120px 0;
+}
+.landing .content span {
+  background-color: var(--main-color);
+  width: fit-content;
+  cursor: pointer;
+}
+.landing .content h1 {
+  line-height: 1;
+}
+
+/* End Landing */
+/* Start Services */
+.service {
+  background-color: #7b6ada7a;
+  line-height: 2;
+}
+.text-sec {
+  background-color: #7b6ada7a;
+}
+.services .service .icon {
+  top: calc(-75px / 2);
+  right: calc(-75px / 2);
+  width: fit-content;
+  height: 100px;
+}
+.services .service svg {
+  width: 75px;
+  height: 75px;
+  background-color: var(--main-color);
+}
+.services .service a {
+  width: fit-content;
+}
+/* End Services */
+.courses-section li {
+  cursor: pointer;
+}
+.card {
+  background-color: #7b6ada7a !important;
+}
+.card button {
+  color: var(--main-color);
+}
+.card span {
+  background-color: var(--main-color);
+  margin-right: -12px;
+  margin-top: -15px;
+}
+/* Start Courses */
+/* End Courses */
+/* Start Team */
+.bg-main {
+  background-color: var(--main-color);
+}
+.text-main {
+  color: var(--main-color) !important;
+}
+.icons svg {
+  color: var(--main-color);
+  cursor: pointer;
+}
+/* End Team */
+/* Srart Info */
+.info p {
+  color: var(--main-color);
+}
+/* End Info */
+/* Start Teacher */
+.teacher.img-box {
+  width: 100%;
+  height: 140px;
+}
+.teacher.img-box img {
+  top: -50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+/* End Teacher */
+
+/*  */
+
+#event img {
+  transform: scale(1.3);
+  width: 150px !important;
+}
+.m {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.s {
+  margin-left: -20px !important;
+}
+.c {
+  transform: translateY(-50%);
+}
